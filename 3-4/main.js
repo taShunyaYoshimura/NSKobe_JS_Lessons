@@ -1,0 +1,11 @@
+let firstNumber = (process.argv[2]);
+let secondNumber = (process.argv[3]);
+firstNumber = firstNumber.split('');
+firstNumber = firstNumber.reverse();
+firstNumber = firstNumber.join('');
+firstNumber = Number(firstNumber);
+secondNumber = secondNumber.split('');
+secondNumber = secondNumber.reverse();
+secondNumber = secondNumber.join('');
+secondNumber = Number(secondNumber);
+console.log(firstNumber+secondNumber); 
